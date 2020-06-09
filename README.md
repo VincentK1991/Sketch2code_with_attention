@@ -14,6 +14,7 @@
 For the pre-processing step, please refer to the pre-processing notebook in the notebook folder.
  
  The code to run training/validation is "train.py".
+ 
  `python train.py --epochs=20 --encoder_lr=1e-4 --decoder_lr=1e-4 --train_data='torch_dir/torch_trainFile_Jun07_2020.pt' --val_data='torch_dir/torch_valFile_Jun07_2020.pt' --val_every=2 --model_name='Jun09_2020' --grad_clip=5.0`
  
  For the visualization step, please refer to the visualization notebook in the notebook folder.
